@@ -4,6 +4,8 @@
     --grey:rgb(57, 58, 65);
     --teal: rgb(60, 241, 202);
     --white: rgb(235, 235, 235);
+    --black : #000103;
+    --red: #ff312e;
 }
 
 *{
@@ -109,6 +111,7 @@ section{
     color: var(--white);
     text-align: left;
 }
-
-
-
+/*Skills page*/
+.skills_sections{
+    background-color: ;
+}
