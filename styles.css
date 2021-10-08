@@ -1,25 +1,28 @@
 /*base*/
 
+:root{
+    --grey:rgb(57, 58, 65);
+    --teal: rgb(60, 241, 202);
+    --white: rgb(235, 235, 235);
+}
+
 *{
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5vh 0;
+    padding: 20vh 0;
 }
 
 /*landing page*/
 #landing{
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    background-color: var(--grey);
+    color: var(--white);
+    text-align: left;
 }
 
 
