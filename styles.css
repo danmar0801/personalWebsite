@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;500;600;700&display=swap');
+
+
 /*base*/
 
 :root{
-    --grey:rgb(57, 58, 65);
-    --teal: rgb(60, 241, 202);
+    --grey:#515052;
     --white: rgb(235, 235, 235);
     --black : #000103;
     --red: #ff312e;
@@ -11,13 +13,38 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans Display', sans-serif;
 }
 section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20vh 0;
+    padding: 40px 0;
+}
+.section_title {
+    font-size: 40px;
+    margin: 10px 5px 20px 5px;
+}
+
+.title_2{
+    font-size: 25px;
+    margin: 10px 0;
+    text-align: center;
+}
+.title_4 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+.container_1{
+    width: 75%;
+    padding: 0 10px;
+}
+.container_2{
+
+}
+.container_3{
+    width: 75%;
 }
 /*NavBar*/
 .navBar {
@@ -107,11 +134,15 @@ section{
 
 /*landing page*/
 #landing{
-    background-color: var(--teal);
+    background-color: pink;
     color: var(--white);
     text-align: left;
 }
 /*Skills page*/
-.skills_sections{
-    background-color: ;
+.skills_section{
+    background-color: var(--black);
+    color: var(--white);
+}
+#skills-left-push{
+    text-align: right;
 }
