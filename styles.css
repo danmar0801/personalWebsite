@@ -17,10 +17,95 @@ section{
     align-items: center;
     padding: 20vh 0;
 }
+/*NavBar*/
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--grey);
+    color: var(--white);
+}
+
+.navBar #logo {
+    margin: 0.5rem;
+    font-size: 3vh;
+    color: pink;
+    letter-spacing: 2px;
+}
+.navBarLinks ul{
+    display: flex;
+    
+}
+.navBarLinks li {
+    list-style: none
+}
+.navBarLinks li a {
+    text-decoration: none;
+    color: var(--white);
+    padding: 1rem;
+    display: block;
+    font-size: 2vh;
+}
+.navBarLinks li a:hover{
+    color: green;
+}
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 642px) {
+    .toggle-button{
+        display: flex;
+    }
+    .navBarLinks {
+        display: none;
+        width: 100%;
+    }
+    .navBar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navBarLinks  ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    .navBarLinks  li{
+        text-align: center;
+    }
+    .navBarLinks.active {
+        display: flex;
+    }
+
+}
+
+.line1.active{
+    transform: rotate(-45deg) translate(-5px,7px);
+}
+.line2.active{
+    opacity: 0;
+}
+.line3.active{
+    transform: rotate(45deg) translate(-5px,-7px);
+}
 
 /*landing page*/
 #landing{
-    background-color: var(--grey);
+    background-color: var(--teal);
     color: var(--white);
     text-align: left;
 }
