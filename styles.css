@@ -8,6 +8,10 @@
     --white: rgb(235, 235, 235);
     --black : #000103;
     --red: #ff312e;
+    --background-color-1:#000103;
+    --background-color-2:#515052;
+    --action-color:#ff312e;
+    --p-text-color:rgb(235, 235, 235);
 }
 
 *{

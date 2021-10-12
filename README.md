@@ -1,5 +1,9 @@
 # this is my personal website
-
+colors:
+p-text:
+buttons:
+titles:
+background
 
 # layout 
 1. there is going to be 5 main section at the moment
@@ -33,3 +37,9 @@
         1. put email
         2. linkedIn
 
+
+Hi, I am Dany.
+A Font-End Developer and SoftWare Engineer.
+I have a strong passion for building responsive and performant applications with great user experiences that positively impacts my community and the environment.
+
+I am a computer science major located in the greater Los Angles Area. I design and code beautifully simple things, and I love what I do. I specialize in web-development and app development. I am passionate about creating applications that are accessible to all kinds of people, and create an impact on my community and the environment.
