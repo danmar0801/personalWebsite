@@ -5,13 +5,12 @@
 
 :root{
     --grey:#515052;
-    --white: rgb(235, 235, 235);
     --black : #000103;
-    --red: #ff312e;
     --background-color-1:#000103;
-    --background-color-2:#515052;
+    --background-color-2:#56666b;
     --action-color:#ff312e;
-    --p-text-color:rgb(235, 235, 235);
+    --secondary-action-color:#5386e4;
+    --p-text-color:#FFFFFF;
 }
 
 *{
@@ -24,7 +23,15 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 0;
+    padding: 40px 15vw;
+}
+#section_title {
+    text-align: center;
+    color: var(--p-text-color);
+}
+#section-subtitle {
+    text-align: justify;
+    color: var(--p-text-color);
 }
 
 /*NavBar*/
@@ -33,13 +40,13 @@ section{
     justify-content: space-between;
     align-items: center;
     background-color: var(--grey);
-    color: var(--white);
+    color: var(--p-text-color);
 }
 
 .navBar #logo {
     margin: 0.5rem;
     font-size: 3vh;
-    color: pink;
+    color: var(--p-text-color);
     letter-spacing: 2px;
 }
 .navBarLinks ul{
@@ -51,7 +58,7 @@ section{
 }
 .navBarLinks li a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--p-text-color);
     padding: 1rem;
     display: block;
     font-size: 2vh;
@@ -73,7 +80,7 @@ section{
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: var(--white);
+    background-color: var(--p-text-color);
     border-radius: 10px;
     transition: all 0.3s ease;
 }
@@ -115,15 +122,48 @@ section{
 
 /*landing page*/
 #landing{
-    background-color: pink;
-    color: var(--white);
+    background-color: var(--background-color-1);
+    color: var(--p-text-color);
+}
+#landing a{
+    text-decoration: none;
+    color: var(--p-text-color);
+    padding: 0 10px;
+}
+#landing a:hover{
+    text-decoration: none;
+    color: var(--action-color);
+}
+#landing_title{
+
+}
+#landing_subtitle{
     text-align: left;
+}
+#socials_div{
+    padding: 20px 10px;
+    text-overflow: hidden;
+}
+/*About page*/
+#about {
+    background-color: var(--background-color-2);
 }
 /*Skills page*/
 .skills_section{
-    background-color: var(--black);
-    color: var(--white);
+    background-color: var(--background-color-1);
+    color: var(--p-text-color);
 }
 #skills-left-push{
     text-align: right;
+}
+
+/*projects page*/
+.projects_section{
+    background-color: var(--background-color-2);
+    color: var(--p-text-color);
+}
+/*contact page*/
+.contact_section{
+    background-color: var(--background-color-1);
+    color: var(--p-text-color);
 }
