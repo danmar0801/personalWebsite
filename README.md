@@ -26,6 +26,7 @@ background
         II. iOS
             1. XCODE
             2. SWIFT
+            3. storyBoardUI
         III. Other
             1. GitHub
             2. GIT
@@ -37,6 +38,7 @@ background
         1. put email
         2. linkedIn
 
+learning: REACT SwiftUI CoreML 
 
 Hi, I am Dany.
 A Font-End Developer and SoftWare Engineer.
